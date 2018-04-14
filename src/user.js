@@ -176,6 +176,7 @@ export class MyPage extends React.Component {
     this.values = [];
     this.inputList = [];
     this.testSkill = [];
+
   }
   updateShowState() {
     this.setState({ showchangePassword: !this.state.showchangePassword });
